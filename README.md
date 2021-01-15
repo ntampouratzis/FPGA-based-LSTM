@@ -9,9 +9,9 @@ The folder "dataset" contains all the weights and biases in .csv files of the tr
 
 The "rnn_model_tb.cpp", "rnn_model.cpp" and "rnn_LSTM.cpp" contain the three source code of the FPGA implementation in Vivado HLS. 
 The first one presents the testbench which imports the .csv files into simple tables and calls for the execution of the optimized FPGA-based model.
-The last two are the complete optimazed FPGA_based model which achieves excellent accelaration and energy efficiency. Specifically, the "rnn_LSTM.cpp" contains the optimized LSTM layers of the model and the "rnn_model.cpp" the rest.
+The last two are the complete optimazed FPGA-based model which achieves excellent accelaration and energy efficiency. Specifically, the "rnn_LSTM.cpp" contains the optimized LSTM layers of the model and the "rnn_model.cpp" the rest of the layers.
 
-In order to reproduce the same results the following steps must be performed:
+In order to reproduce the same results as the corresponding paper, the following steps must be performed:
 1. For each .cpp file create a seperate file in Vivado HLS and copy its contends in the Vivado HLS files. The "rnn_model_tb.cpp" contains the testbench therefore must be included in the appropriate testbench of the Vivado HLS project.
 2. Download and save in a accessable place the "dataset" folder. Afterwards, in the testbench file edit the present address of the folder in all previous addresses. Therefore, the model can import the correct inputs and produce the propriate results.
 3. The model is ready to be tested in Vivado HLS.
