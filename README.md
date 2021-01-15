@@ -1,5 +1,5 @@
 # FPGA-based-LSTM
-A novel FPGA-based intent recognition systemutilizing deep recurrent neural networks.
+A novel FPGA-based intent recognition system utilizing deep recurrent neural networks.
 
 This repository contains the open-source C++ code of Vivado HLS and the appropriate dataset for the FPGA acceleration of the RNN-LSTM model presented in the following paper:
 
