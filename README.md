@@ -3,7 +3,7 @@ A novel FPGA-based intent recognition system utilizing deep recurrent neural net
 
 This repository contains the open-source C++ code of Vivado HLS/Vitis and the appropriate dataset for the FPGA acceleration of a RNN-LSTM model presented in the following paper:
 
-"[omitted due to ongoing blind review; available on request]".
+Zhang, X.; Yao, L.; Huang, C.; Sheng, Q.; Wang, X. Intent recognition in smart living through deep recurrent neural networks.24th International Conference on Neural Information Processing (ICONIP 2017) : proceedings; Liu, D.; Zhao, D.; Xie, S.; El-Alfy,E.;  Li, Y., Eds.;  Springer, Springer Nature:  United States, 2017;  Vol.  10635,Lecture Notes in Computer Science, pp.  748–758.doi:10.1007/978-3-319-70096-0_76.
 
 The folder "dataset" contains all the weights and biases in .csv files of the trained model that will be used as inputs to the FPGA implementation. Moreover, the testing data and the results produced by the original Python code duting training are included.
 
